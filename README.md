@@ -1759,3 +1759,18 @@ Một số Business Rules chưa thể xác định chính xác từ yêu cầu h
 | 9 | Tần suất cập nhật vị trí GPS |
 | 10 | Thời gian lưu trữ dữ liệu |
 ---
+
+### Basic Flow
+
+| STT | Actor / Thành phần | Hành động |
+|---|---|---|
+| 1 | Người dùng | Truy cập chức năng đăng nhập |
+| 2 | Người dùng | Nhập username và password |
+| 3 | Người dùng | Gửi yêu cầu đăng nhập |
+| 4 | Hệ thống | Kiểm tra thông tin tài khoản |
+| 5 | Hệ thống | Xác thực username và password |
+| 6 | Hệ thống | Kiểm tra trạng thái tài khoản |
+| 7 | Hệ thống | Xác định vai trò và quyền của người dùng |
+| 8 | Hệ thống | Tạo phiên đăng nhập / token |
+| 9 | Hệ thống | Chuyển người dùng đến chức năng tương ứng |
+
